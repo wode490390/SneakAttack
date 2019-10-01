@@ -1,0 +1,2 @@
+# Sneaking reduces the player's food level. Disable this feature when the value is 0
+food-level-reduce-every-x-ticks: 50

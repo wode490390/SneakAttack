@@ -1,0 +1,15 @@
+main: cn.wode490390.nukkit.sneakattack.SneakAttack
+name: "SneakAttack"
+description: "Sneak attack plugin for Nukkit"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  sneakattack.invisible:
+    description: "Allows the player to be invisible when sneaking"
+    default: true
+  sneakattack.unlimited:
+    description: "Allows the player to invisible without paying the price"
+    default: op
